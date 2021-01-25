@@ -1,0 +1,542 @@
+﻿.main {
+    min-height: 30px;
+    min-width: 100px;
+    resize: both;
+ border-style:hidden;
+}
+body {
+    font-family: sans-serif;
+    min-width: 500px;
+    background-color: #202020;
+}
+
+.navigation{
+    list-style:none;
+}
+.navigation li {
+        display: inline; /*за да ги изкара на един ред*/
+  
+}
+
+.navigation a {
+        font-weight:bold;
+        text-decoration: none; /*underline-подчертава*/
+        color: #202020;
+        display: inline-block;
+        background-color: orangered;
+        padding: 10px 15px;
+        margin: 45px; /*разстояние м/у квадратчетата*/
+        border-radius: 10px; /*заболя върховете на квадратчетата*/
+}
+ .navigation a:hover {
+            text-decoration: dashed;
+            background-color: transparent;
+            color: orangered;
+            transform: scale(1.1);
+ }
+
+.back{
+    list-style: none;
+    text-align:right;
+}
+.back a {
+        font-weight: bold;
+        text-decoration: none; /*underline-подчертава*/
+        color: #202020;
+        display: inline-block;
+        background-color: orangered;
+        padding: 10px 15px;
+        border-radius: 10px; /*заболя върховете на квадратчетата*/
+    }
+
+.back a:hover {
+    text-decoration: dashed;
+    background-color: transparent;
+    color: orangered;
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    /*background: white;*/
+    font-family: cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #707070;
+    font-size: 25px;
+    font-family: monospace;
+}
+h3 {
+    text-align: center;
+    color: orangered;
+    font-size: 35px;
+    font-family: monospace;
+}
+h4 {
+    font-family: cursive;
+    font-size: 22px;
+    position: relative;
+    left: 15px;
+    color: ghostwhite;
+}
+h5 {
+    font-family: cursive;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    color: #707070;
+}
+h6 {
+    font-family: cursive;
+    font-size: 19px;
+    position: relative;
+    left: 15px;
+    top:-50px;
+    color: #707070;
+}
+p {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#info {
+    font-family: monospace;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    text-align: left;
+    left:10px;
+}
+.name {
+    font-family: monospace;
+    font-size: 28px;
+    color: #202020;
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+}
+#iz{
+    font-family: cursive;
+    color:white;
+    text-align:left;
+}
+.green {
+    background-color: #202020;
+    color: lawngreen;
+}
+.links {
+    background-color: #202020;
+    color:gray;
+}
+.num {
+    background-color: #202020;
+    color: orangered;
+}
+
+#imageText{
+    color:black;
+    font-size:12px;
+    position:relative;
+    text-align:left;
+    left:20px;
+}
+
+.withImg{
+    background:white;
+}
+
+#coffee {
+    height: 360px;
+    width: 500px;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+#codCf {
+    position: relative;
+    left: 130px;
+    bottom: 20px;
+}
+
+.gray {
+    color: blue;
+    background: #202020;
+}
+
+
+.poleta{
+    background-color:white;
+}
+#poletaImg {
+    height: 250px;
+    width: 500px;
+    position: relative;
+}
+
+.refer{
+    background-color:white;
+}
+#referentnoPole {
+    height: 350px;
+    width: 500px;
+    position: relative;
+}
+
+
+.text-circle{
+    background:white;
+}
+#cod-text-circle{
+    position:relative;
+    left:125px;
+    bottom:20px;
+}
+
+
+.text-elipse{
+    background:white;
+}
+#textelipse {
+    position: relative;
+    left: 125px;
+    bottom: 20px;
+}
+
+.text-polygon{
+    background:white;
+}
+#polygon {
+    height: 350px;
+    width:400px;
+    position: relative;
+    left: 20px;
+    bottom:5px;
+}
+#cod-polygon {
+    position: relative;
+    left: 125px;
+    bottom: 20px;
+}
+
+
+
+.first {
+    background: white;
+}
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+    position: relative;
+    margin-right: 100px;
+}
+ .square img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top:40px;
+ }
+
+
+
+.second {
+    background: white;
+}
+
+.rectangle {
+    height: 100px;
+    width: 200px;
+    background-color: orangered;
+    position: relative;
+    margin-right: 100px;
+}
+
+    .rectangle img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: 0px;
+    }
+
+
+
+
+.third{
+    background: white;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 50%
+}
+.circle img {
+    position: relative;
+    margin: auto 500px;
+    float: left;
+    top: -10px;
+}
+
+
+
+.forth {
+    background: white;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background-color: orangered;
+    background-color: orangered;
+    border-radius: 100px / 50px;
+}
+
+    .oval img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -15px;
+    }
+
+
+
+.five{
+    background: white;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid;
+    border-bottom-color: orangered;
+}
+
+    .triangle-up img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -20px;
+        right:55px;
+    }
+
+
+
+
+.six {
+    background: white;
+}
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid;
+    border-top-color:orangered;
+    border-right: 100px solid transparent;
+}
+
+    .triangle-topleft img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -115px;
+        left: -4px;
+    }
+
+
+
+.seven {
+    background: white;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+   
+    border-right: 100px solid;
+    border-right-color:orangered;
+    border-bottom: 50px solid transparent;
+}
+
+    .triangle-left img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -80px;
+        left: -6px;
+    }
+
+
+
+
+.eight {
+    background: white;
+}
+
+.triangle-downright {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid orangered;
+}
+
+    .triangle-downright img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -15px;
+        left: -105px;
+    }
+.eight span {
+    font-family: monospace;
+    font-size: 28px;
+    color: #202020;
+    position: relative;
+    left: 35px;
+    top:-30px;
+    font-weight: bold;
+}
+
+
+.nine {
+    background: white;
+}
+
+.trapec {
+    border-bottom: 100px solid orangered;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    
+}
+
+    .trapec img {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -25px;
+        left: -35px;
+    }
+
+
+
+.ten {
+    background: white;
+}
+
+.parallel {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background-color:orangered;
+}
+
+    #parallelImg {
+        position: relative;
+        margin: auto 500px;
+        float: left;
+        top: -130px;
+        left: 35px;
+    }
+
+
+
+.eleven {
+    background: white;
+    position:relative;
+    top:-40px;
+}
+
+.peto {
+    position: relative;
+    bottom:-60px;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: orangered transparent;
+}
+    .peto::before {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -85px;
+        left: -18px;
+        border-width: 0 45px 35px;
+        border-style: solid;
+        border-color: transparent transparent orangered;
+    }
+#petoImg{
+    position:relative;
+   left:470px;
+    top:-100px;
+}
+.eleven span {
+    font-family: monospace;
+    font-size: 28px;
+    color: #202020;
+    position: relative;
+    left: 40px;
+    top:20px;
+    font-weight: bold;
+}
+
+
+
+.twelve{
+    background-color:white;
+}
+    .twelve span {
+        font-family: monospace;
+        font-size: 28px;
+        color: #202020;
+        position:relative;
+        left: 30px;
+        top: -150px;
+        font-weight: bold;
+    }
+    #fb{
+        position:relative;
+        left:-170px;
+    }
+#fb-code{
+   position:relative;
+   left:170px;
+   top:6px;
+}
+
+.thirteen{
+    background-color:white;
+}
+
+#heart{
+    position:relative;
+    top:-5px;
+    left:-30px;
+}
+
+#heart-code {
+    position: relative;
+    left: 258px;
+    top: 3px;
+}
+
+.thirteen span {
+    font-family: monospace;
+    font-size: 28px;
+    color: #202020;
+    position: relative;
+    left: 30px;
+    top: -160px;
+    font-weight: bold;
+}
