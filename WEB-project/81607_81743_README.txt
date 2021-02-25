@@ -1,0 +1,9 @@
+Проект по УЕБ на тема Презентации по УЕБ (календар).
+Съдържание на архива (финална версия):
+1. Документация - w15prj_KN_REQ_final
+2. Проект - 10 бр файлове: config.php, аdd_event.php, del_event.php, get_var.php, day.php, month.php, index.php, main.js, calendar.css
+3. README.txt
+4. cal.sql (база данни от XAMPP)
+Стартиране:
+Стартира се чрез главния файл index.php чрез XXAMP и папката htdocs. 
+
